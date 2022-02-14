@@ -63,7 +63,6 @@
     $sessionStarted = time();
 
     //check if one of our variables (session) is being or has been saved 
-
     if((!isset($_SESSION['visites'][$variableProduit])) || (!isset($_SESSION['visites'][$variableProduit]) < $sessionStarted)){
 
       //affect time of new session into 'visites'
@@ -87,12 +86,12 @@
 
     ?>
 
-    <h2>Votre historique de navigation</h2>
+    <h2 class="navigation">Votre historique de navigation</h2>
 
     <?php
 
     //Display the last 3 visited pages
-    echo  '<b>Les pages visitees sont<b> :';
+    echo  '<b>Les pages visitées sont<b> :';
     echo "<br>";
     //$i = each page being visited
     for ($i=0; $i <= 3; $i++) { 

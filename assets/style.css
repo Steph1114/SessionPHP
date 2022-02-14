@@ -30,3 +30,13 @@
     text-decoration: none;
     color: #fff;
 }
+
+.navigation {
+    margin-top: 40px;
+    padding: 20px;
+    background-color: #E7C2FF;
+}
+
+.navigation {
+    text-align: center;
+}
