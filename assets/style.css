@@ -1,0 +1,30 @@
+.list-item {
+    list-style: none;
+}
+
+.list-item a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+    line-height: 1.6em;
+}
+
+.list-item a:hover {
+    transform: scale(5);
+    color: goldenrod;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+}
+
+.retour {
+    background-color: rgb(51, 112, 89);
+    padding: 10px;
+}
+
+.retour a {
+    text-decoration: none;
+    color: #fff;
+}
